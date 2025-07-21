@@ -102,9 +102,11 @@ h1{
 .action p .btn-primary {
     margin-left: 20px;
 }
-@media screen and ( max-width: 600px) {
+@media screen and ( max-width: 576px) {
      .navber {
-        flex-direction: column;
+         flex-direction: column; 
+         gap: 20px;
+        
     }
  
   .logos{
@@ -118,7 +120,7 @@ h1{
   }
  
   }
-}
+
 
 
 
@@ -188,7 +190,7 @@ main{
     font-weight: bold;
 } 
 
-@media screen and ( max-width: 600px ){
+@media screen and ( max-width: 576px ){
     .container{
        
         grid-template-columns: 1fr;
