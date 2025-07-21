@@ -116,8 +116,7 @@ h1{
    .for-flex{
     flex-direction: column;
   }
- .for-mobile{
-    align-items: center;
+ 
   }
 }
 
